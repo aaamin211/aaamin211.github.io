@@ -1,8 +1,13 @@
 .container{
 //    background: gray;
-    .intro{
 
-        padding: 32px 16px;
+     .body-div{
+         height: calc(100vh - 64px);
+         overflow: scroll;
+     }
+    .intro{
+        margin-top: 32px;
+        padding: 0px 16px;
 
         .title{
 
@@ -26,10 +31,62 @@
         .icon-div{
             width: 36px;
             margin: 8px;
+            &:first-child{
+              margin-left: 0px !important;
+            }
         }
 
         .icon-div:hover{
             opacity: .5;
         }
     }
+
+
+    .skills{
+        margin-top: 32px;
+        padding: 0px 16px;
+    }
+
+    .Education{
+        margin-top: 32px;
+        padding: 0px 16px;
+    }
+    .Experience{
+        margin-top: 32px;
+        padding: 0px 16px;
+    }
+    .problem-solving{
+        margin-top: 32px;
+        padding: 0px 16px;
+    }
+
+    .Achievements{
+        margin-top: 32px;
+        padding: 0px 16px;
+    }
+}
+
+
+.title-txt{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.move-btn{
+    padding: 8px 16px;
+ //   margin: 0px 8px;
+    border-radius: 30px;
+    color: white;
+    
+
+   // background: #2c43c5;
+}
+
+.move-btn:hover{
+    opacity: .8;
+    background: #6a7de9;
+}
+.tool-bar{
+    flex-wrap: wrap !important;
 }
