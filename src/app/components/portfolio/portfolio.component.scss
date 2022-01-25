@@ -7,7 +7,7 @@
      }
     .intro{
         margin-top: 32px;
-        padding: 0px 16px;
+        padding: 0px 24px;
 
         .title{
 
@@ -44,12 +44,54 @@
 
     .skills{
         margin-top: 32px;
-        padding: 0px 16px;
+        padding: 0px 24px;
+        .txt2{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+        .tool-tip{
+            padding: 4px 8px;
+            background: rgb(124, 122, 122);
+            color: #ffffff;
+            border-radius: 4px;
+            font-size: 12px;
+        }
     }
 
     .Education{
+        max-width: 500px;
         margin-top: 32px;
-        padding: 0px 16px;
+        padding: 0px 24px;
+        color: #545454;
+        .logo{
+            width: 40px;
+            margin: 20px 0px 4px 0px;
+        }
+        .txt1{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .txt2{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .txt3{
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 2px;
+        }
+        .txt4{
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+        .border-bottom{
+            border-bottom: 1px solid #545454;
+        }
     }
     .Experience{
         margin-top: 32px;
