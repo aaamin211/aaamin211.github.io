@@ -56,6 +56,29 @@
             color: #ffffff;
             border-radius: 4px;
             font-size: 12px;
+            margin-bottom: 4px;
+        }
+
+        // .profici{
+        //     position: relative;
+        // }
+
+
+        .skill{
+            position: relative;
+            padding-left: 16px;
+        }
+
+        .skill::before{
+            position: absolute;
+            top: 5px;
+            left: 0px;
+             content: '.';
+             color: #ffffff;
+             height: 8px !important;
+             width: 8px !important;
+             border-radius: 50%;
+             background-color: #000000;        
         }
     }
 
@@ -94,17 +117,135 @@
         }
     }
     .Experience{
+        max-width: 500px;
         margin-top: 32px;
-        padding: 0px 16px;
+        padding: 0px 24px;
+        color: #545454;
+        .logo{
+            width: 80px;
+            margin: 20px 0px 4px 0px;
+        }
+        .txt1{
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+        .txt2{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
+
+        .txt3{
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 2px;
+        }
+        .txt4{
+            font-size: 16px;
+            font-weight: 400;
+            margin-bottom: 16px;
+        }
+        .border-bottom{
+            border-bottom: 1px solid #adabab;
+        }
+
+        .role-list{
+            margin-top: 8px;
+        }
+
+        .role{
+            position: relative;
+            padding-left: 16px;
+        }
+
+        .role::before{
+            position: absolute;
+            top: 5px;
+            left: 0px;
+             content: '.';
+             color: #ffffff;
+             height: 8px !important;
+             width: 8px !important;
+             border-radius: 50%;
+             background-color: #000000;        
+        }
     }
     .problem-solving{
         margin-top: 32px;
-        padding: 0px 16px;
+        padding: 0px 24px;
+        .list{
+            position: relative;
+            padding-left: 16px;
+        }
+
+        .list::before{
+            position: absolute;
+            top: 5px;
+            left: 0px;
+             content: '.';
+             color: #ffffff;
+             height: 8px !important;
+             width: 8px !important;
+             border-radius: 50%;
+             background-color: #000000;        
+        }
+        .txt2{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 2px;  
+        }
+
+        .oj-details{
+            width: 210px;
+            padding: 8px 12px;
+            margin: 4px;
+            display: table;
+            border: 1px solid rgb(148, 139, 139);
+            border-radius: 8px;
+            background: rgb(192, 190, 190);
+        }
     }
 
     .Achievements{
         margin-top: 32px;
-        padding: 0px 16px;
+        padding: 0px 24px;
+        .list{
+            position: relative;
+            padding-left: 16px;
+        }
+
+        .list::before{
+            position: absolute;
+            top: 10px;
+            left: 0px;
+             content: '.';
+             color: #ffffff;
+             height: 8px !important;
+             width: 8px !important;
+             border-radius: 50%;
+             background-color: #000000;        
+        }
+    }
+
+    .bio{
+        margin-top: 32px;
+        padding: 0px 24px;
+        .txt2{
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 2px;  
+        }
+        .txt3{
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 2px;
+        }
+        .txt4{
+            font-size: 12px;
+            font-weight: 500;
+            margin-bottom: 2px;
+        }
     }
 }
 
@@ -130,5 +271,9 @@
     background: #6a7de9;
 }
 .tool-bar{
+    flex-wrap: wrap !important;
+}
+
+.flex-w{
     flex-wrap: wrap !important;
 }

@@ -7,6 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
+
+  bioInfo = [
+    {property: 'Name',value: 'Md. Abdullah Al Amin'},
+    {property: 'Date of Birth',value: '18th December,1995'},
+    {property: 'Height',value: `5'11"`},
+    {property: 'Parmanent Address',value: 'College para , Nachole Pourashava, Nachole, Chapai Nawabgonj'}
+  ]
+
   constructor() { }
 
   ngOnInit(): void {
